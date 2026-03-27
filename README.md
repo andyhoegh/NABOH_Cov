@@ -10,7 +10,7 @@ Comprehensive monitoring in North American bats reveals low body mass and reprod
 ### Repo Contents
 
 - scripts: contains the source .R and .stan files to reproduce the anaysis. Each file is detailed below in the specific sections corresponding to the statistical analyses.
-- data: contains the raw source data and model generated output.
+- data: contains an .RData file with a set of data frames used for the analysis.
 - figures: contains the final output figures from the manuscript. 
 
 ### 1. System Requirements
