@@ -11,7 +11,8 @@ Comprehensive monitoring in North American bats reveals low body mass and reprod
 
 ### Repo Contents
 
-- scripts: contains the source .R and .stan files to reproduce the anaysis. 
+- Analysis2023.R: master analysis file for 2023 data analysis.
+- stan scripts: contains the source .stan files to reproduce the anaysis. 
 - NABOH_database.RData: an .RData file with a set of data frames used for the analysis.
 
 ### 1. System Requirements
