@@ -3,6 +3,8 @@
 
 ### General Information
 
+__FOR PEER REVIEW ONLY__
+
 This repo contains instructions and source code for reproducing the statistical analyses in the manuscript.
 Comprehensive monitoring in North American bats reveals low body mass and reproductive status as predictors of coronavirus shedding 
 
