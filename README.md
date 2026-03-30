@@ -9,9 +9,8 @@ Comprehensive monitoring in North American bats reveals low body mass and reprod
 
 ### Repo Contents
 
-- scripts: contains the source .R and .stan files to reproduce the anaysis. Each file is detailed below in the specific sections corresponding to the statistical analyses.
+- scripts: contains the source .R and .stan files to reproduce the anaysis. 
 - NABOH_database.RData: an .RData file with a set of data frames used for the analysis.
-- figures: contains the final output figures from the manuscript. 
 
 ### 1. System Requirements
 
@@ -28,15 +27,14 @@ Reproducing the statistical analyses requires a current version of R and stan. W
 Users will need the following packages install the following packages to execute the code. Our versions are effective March 27, 2026
 
 ```
-tidyverse 2.0.0
-lubridate 1.9.3
-stringr 1.5.1
-rstan 2.32.6
-cowplot 1.1.3
-ggtext 0.1.2
-jpeg 0.1-10
-scales 1.3.0
-tictoc 1.2.1
+tidyverse
+knitr
+rstan
+loo
+scales
+rstanarm
+patchwork
+viridis
 ```
 
 
@@ -48,6 +46,9 @@ Running the analysis requires:
 - installing stan. Depending on wifi speeds, installing stan usually takes a few minutes.
 - installing the necessary R packages (listed above). Depending on wifi speeds, installing packages usually takes about 30 seconds per package.
 
+### 3. Running R code
+
+The script Analysis2023.R (and associated stan files) contain the code to run the analysis for sites with repeat visits in 2023 and will generate figures from the manuscript.
 
 ### 3. Instructions for Use
 
